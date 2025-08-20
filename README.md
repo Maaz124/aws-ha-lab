@@ -37,9 +37,9 @@ This lab demonstrates a simple **high-availability web architecture** in AWS acr
 ## **Traffic Flow**
 
 Browser
-↓
+->
 ALB (public)
-↓
+->
 Frontend EC2s (AZ1 or AZ2)
-↓
+->
 Backend EC2s (private) via reverse proxy
