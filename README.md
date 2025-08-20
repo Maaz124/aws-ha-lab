@@ -16,7 +16,8 @@ This lab demonstrates a simple **high-availability web architecture** in AWS acr
 - **EC2 Instances**:  
   - Frontend EC2 in each public subnet  
   - Backend EC2 in each private subnet  
-  - Frontends use reverse proxy to access local backend (port 5000)  
+  - Frontends use reverse proxy to access local backend (port 5000)
+  - Bastion host between public and private EC2s
 
 - **NAT Gateway**:  
   - Deployed in public subnet to allow private backend instances to access the internet  
